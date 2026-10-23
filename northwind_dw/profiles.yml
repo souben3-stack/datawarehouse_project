@@ -1,0 +1,7 @@
+northwind_dw:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: dev.duckdb
+      schema: staging  # <-- Mettre "staging" comme schéma par défaut pour dbt
